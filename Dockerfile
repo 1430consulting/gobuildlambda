@@ -4,7 +4,7 @@ ENV GOLANG_VERSION="1.13.1"
 
 # Installutilities
 RUN set -ex \
-    && yum install -y zip unzip make git wget\
+    && yum install -y zip unzip make git wget tar\
     && yum clean all
 
 ENV GOLANG_DOWNLOAD_SHA256="8af8787b7c2a3c0eb3f20f872577fcb6c36098bf725c59c4923921443084c807" \
