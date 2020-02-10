@@ -27,5 +27,5 @@ RUN ln -s /usr/local/go13 /usr/local/go
 
 ENV PATH="$GOPATH/bin:/usr/local/go/bin:$PATH"
 
-
+WORKDIR /root
 CMD eval "$@"
